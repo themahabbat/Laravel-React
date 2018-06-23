@@ -5,7 +5,7 @@ import { BrowserRouter, Route, Link } from 'react-router-dom'
 class Main extends React.Component {
    render() {
       return (
-         <BrowserRouter basename="/spotify">
+         <BrowserRouter basename="/">
             <div>
                <Route exact path="/about" component={() => (
                   <span>ABOUT</span>
